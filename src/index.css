@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 90.5%;
+  }
+
+body {
+  background: #000 url("./images/bgimg.jpeg") no-repeat center center/cover;
+    min-height: 100vh;
+    width: 100vw;
+    color: aliceblue; 
+  }
+  /* header styling */
+
+  header {
+    height: 190px;
+    margin-top: 10px;
+  }
+  
+  header img {
+    width: 150px;
+  }
+  
+  .center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* search input styling */
+.search{
+  width: 100vw;
+  height: 60px;
+  margin-top: 3%;
+  
+}
+  .search input{
+  font-family: 'Roboto', sans-serif;
+  height: 5vh;
+  display: block;
+  margin: auto;
+  padding: 10px;
+  font-size: 15px;
+  border: 0;
+  border-radius: 5px;
+  width: 50%;
+  outline: none;
+  line-height: 1.25rem;
+  font-weight: 500;
+  letter-spacing: 0.01786em;
+  margin-bottom: 3%;
+  }
+/* card */
+.flex{
+  display: flex;
+  justify-content: center!important;
+}
+
+/* pagination */
+
+.pagination{
+  margin-right: 9%;
+}
+/* responsive styling */
+@media  (max-width:998px){
+  .main_div{
+    max-width: 980px!important;
+  }
+  .main_div .card img{
+    width:9rem!important; 
+  }
+}
+
+@media  (max-width:769px){
+  .pagination{
+    margin-left: 9%;
+  }
+  .main_div{
+    max-width: 700px!important;
+  }
+  .main_div .row{
+    display: flex;
+    justify-content: center;
+   
+  }
+  .main_div .card {
+    width: 30rem!important;
+    height: 19rem!important;
+    
+  } 
+
+  .modalstyle{
+    max-width: 80%!important;
+  }
+  .modalstyle img{
+    width:16rem!important;
+
+  }
+}
+
+@media  (max-width:421px){
+  .search input{
+  width: 60vw;
+  }
+  .main_div .card {
+    width: 30rem!important;
+    height: 40rem!important;
+  }
+
+  .main_div .card .small{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main_div .card img{
+    width:18rem!important;
+    height: 350px!important;
+
+  }
+
+  
+ 
+}
+
+
+  
