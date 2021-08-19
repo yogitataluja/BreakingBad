@@ -1,4 +1,4 @@
-Check out it's live here: https://breakingbadms.netlify.app/
+Check out it's deployed here: https://breakingbadms.netlify.app/
 
 App to list
  ***Breaking Bad Characters & their Quotes***
